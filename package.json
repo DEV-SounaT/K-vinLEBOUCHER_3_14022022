@@ -1,0 +1,18 @@
+{
+  "name": "p3_leboucher_kevin",
+  "version": "1.0.0",
+  "description": "Projet 3 OpenClassroom",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/DEV-SounaT/KevinLeboucher_3_14022022.git)"
+  },
+  "author": "Kévin Leboucher",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.7"
+  }
+}
