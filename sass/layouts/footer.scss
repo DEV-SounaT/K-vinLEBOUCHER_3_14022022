@@ -1,0 +1,36 @@
+/*FOOTER*/
+
+footer {
+    background-color: #353535;
+    color: white;
+    padding: 24px 0 30px 22px;
+    h2 {
+        font-family: "Shrikhand", cursive;
+        font-weight: 500;
+        font-size: 18px;
+        margin: 0;
+        padding: 0 0 10px 0;
+    }
+    a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    div {
+        padding: 4px 0;
+    }
+    .filtre-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 16px;
+        height: 16px;
+    }
+    .flex {
+        display: flex;
+        align-items: center;
+        a {
+            padding-left: 10px;
+            font-weight: 500;
+        }
+    }
+}
