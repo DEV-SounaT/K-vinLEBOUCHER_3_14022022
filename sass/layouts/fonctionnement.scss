@@ -1,0 +1,53 @@
+/*FONCTIONNEMENT*/
+
+.fonctionnement {
+    & h2 {
+        margin-top: 52px;
+        margin-bottom: 32px;
+    }
+    counter-reset: steps;
+    & ol {
+        display: flex;
+        gap: 24px;
+        padding: 0;
+        margin: 0;
+        @media screen and (max-width: 945px) {
+        flex-direction: column;
+        }
+    }
+    & li {
+        position: relative;
+        list-style-type: none;
+        background-color: #f6f6f6;
+        padding: 26px 36px;
+        flex-grow: 1;
+        border-radius: 10px;
+        transition: transform 200ms;
+        box-shadow: 0px 5px 5px #ececec;
+        &::before {
+            content: counter(steps);
+            counter-increment: steps;
+            color: white;
+            background-color: #9256dc;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 22px;
+            width: 22px;
+            position: absolute;
+            left: -10px;
+            font-size: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        &:hover {
+            transform: scale(1.02);
+        }
+        & i.fas {
+            color: #7e7e7e;
+            margin-right: 28px;
+            font-size: 20px;           
+        }
+    }
+}

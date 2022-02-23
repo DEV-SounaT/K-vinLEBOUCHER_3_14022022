@@ -1,0 +1,18 @@
+.recherche {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+  gap: 17px;
+  padding: 16px 26px 15px 0px;
+  & i {
+    padding-bottom: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  & h2 {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+  }
+}
