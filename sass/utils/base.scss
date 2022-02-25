@@ -27,6 +27,12 @@ a {
   color: inherit;
 }
 
+.flex-menu, .commander {
+  h2 {
+    display: none;
+  }
+}
+
 .loader {
   $animation-count: 2;
   position: fixed;
