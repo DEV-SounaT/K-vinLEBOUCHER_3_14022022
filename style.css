@@ -176,6 +176,10 @@ header h1 {
 }
 .fonctionnement li:hover {
   transform: scale(1.02);
+  background-color: #f5edff;
+}
+.fonctionnement li:hover i.fas {
+  color: #9256dc;
 }
 .fonctionnement li i.fas {
   color: #7e7e7e;

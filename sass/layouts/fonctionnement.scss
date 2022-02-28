@@ -43,11 +43,15 @@
         }
         &:hover {
             transform: scale(1.02);
+            background-color: #f5edff;
+            & i.fas {
+                color: #9256dc;
+            }
         }
         & i.fas {
             color: #7e7e7e;
             margin-right: 28px;
-            font-size: 20px;           
+            font-size: 20px;
         }
     }
 }
