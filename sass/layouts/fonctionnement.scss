@@ -1,6 +1,7 @@
 /*FONCTIONNEMENT*/
 
 .fonctionnement {
+    counter-reset: steps;
     & h2 {
         margin-top: 52px;
         margin-bottom: 32px;

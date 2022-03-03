@@ -129,6 +129,9 @@ header h1 {
   }
 }
 /*FONCTIONNEMENT*/
+.fonctionnement {
+  counter-reset: steps;
+}
 .fonctionnement h2 {
   margin-top: 52px;
   margin-bottom: 32px;
